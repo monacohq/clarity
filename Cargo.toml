@@ -17,7 +17,7 @@ travis-ci = { repository = "althea-net/clarity", branch = "master" }
 
 [dependencies]
 serde = "1.0"
-serde-rlp = "0.1"
+serde-rlp = { git = "https://github.com/monacohq/serde-rlp.git", rev = "796be5c" }
 num-bigint = { version = "0.4", default-features = false, features = ["serde"] }
 num-traits = "0.2"
 serde_bytes = "0.11"
